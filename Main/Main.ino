@@ -14,9 +14,9 @@ SFE_BMP180 pressure;
 
 DHTesp dht;
 
-char auth[] = "_-M9dujofBAS6MLnz-W1X5fr5LXOsIJW";
-const char* ssid = "Zahrann";
-const char* password = "123456789";
+char auth[] = "BLYNK AUTHORIZATION CODE";
+const char* ssid = "ID";
+const char* password = "PASSWORD";
 
 BlynkTimer timer;
 ESP8266WebServer server(80);
@@ -66,6 +66,7 @@ void handleADC() {
   k = temperature;
   pp=pmb;
 }
+
 void myTimerEvent(){
 Blynk.virtualWrite(V5, temperature);
 Blynk.virtualWrite(V6, humidity);
@@ -73,18 +74,18 @@ Blynk.virtualWrite(V7, z);
 Blynk.virtualWrite(V8, pp);
 if (z > 50)
 {
-  Blynk.email("mohamedzaahran1@gmail.com", "Weather  Alert", "It is Rainy!");
+  Blynk.email("ADD EMAIL", "Weather  Alert", "It is Rainy!");
   Blynk.notify("Weather  Alert - It is Rainy!");
 }
 if (k > 30)
 {
 
-  Blynk.email("mohamedzaahran1@gmail.com", "Weather  Alert", "It is too hot!");
+  Blynk.email("ADD EMAIL", "Weather  Alert", "It is too hot!");
   Blynk.notify("Weather  Alert - It is too hot");
 }
 if (k < 22 && k >0)
 {
-  Blynk.email("mohamedzaahran1@gmail.com", "Weather  Alert", "It is cold!");
+  Blynk.email("ADD EMAIL", "Weather  Alert", "It is cold!");
   Blynk.notify("Weather  Alert - It is cold");
 }
 
