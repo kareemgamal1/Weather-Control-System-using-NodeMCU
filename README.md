@@ -7,7 +7,7 @@ Our project predicts the current weather state using several sensors such as BMP
 | *Kareem Gamal Ibrahim*       | 
 | *Salma Mahdy*                | 
 | *Mohammed Ashraf*            | 
-| *Dalia Ahmed*                | 
-| *Mohamed Ehab Zahran*        | 
 | *Ola Medhat*                 | 
+| *Mohamed Ehab Zahran*        | 
+| *Dalia Ahmed*                | 
 | *Aya Mahmoud*                | 
