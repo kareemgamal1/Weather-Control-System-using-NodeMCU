@@ -27,4 +27,4 @@ Our project predicts the current weather state using several sensors such as BMP
 
 ## Credits
 
-<img src="https://github.com/kareemgamal1/Weather-Control-System-using-NodeMCU/blob/main/images/Team.png" width="407" height="520" />
+<img src="https://github.com/kareemgamal1/Weather-Control-System-using-NodeMCU/blob/main/images/Team.png" width="507" height="620" />
