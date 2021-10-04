@@ -16,6 +16,9 @@ Our project predicts the current weather state using several sensors such as BMP
 
 <img src="https://github.com/kareemgamal1/Weather-Control-System-using-NodeMCU/blob/main/images/Components%20Used.png" width = "444" height ="531" />
 
+## Apps and online services
+
+<img src="https://github.com/kareemgamal1/Weather-Forecast-System-using-NodeMCU/blob/main/images/Apps.png" width = "341" height = "205"/>
 
 ## Circuit connections
 <img src="https://github.com/kareemgamal1/Weather-Control-System-using-NodeMCU/blob/main/images/Circuit.png" width="405" height ="540"  />
@@ -27,4 +30,4 @@ Our project predicts the current weather state using several sensors such as BMP
 
 ## Credits
 
-<img src="https://github.com/kareemgamal1/Weather-Control-System-using-NodeMCU/blob/main/images/Team.png" width="507" height="620" />
+<img src="https://github.com/kareemgamal1/Weather-Control-System-using-NodeMCU/blob/main/images/Team.png" width="517" height="630" />
